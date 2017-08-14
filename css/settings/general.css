@@ -9,14 +9,16 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+/*Container*/
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.container--small{
-   max-width: 730px;
+.container--small {
+  max-width: 730px;
 }
+/*Button*/
 .btn {
   display: inline-block;
   min-width: 138px;
@@ -38,10 +40,10 @@ body {
   background-color: rgba(72, 191, 114, 0.7);
   opacity: 0;
   transition: all .3s ease;
-   text-align: center;
+  text-align: center;
 }
 .info-hover--center {
-	display: inline-block;
+  display: inline-block;
 }
 .info-hover__text-wrap {
   display: table-cell;
